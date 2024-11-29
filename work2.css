@@ -1,0 +1,99 @@
+
+*{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: rgb(74, 185, 120);
+    color: white;
+    height: 8cap;
+}
+.head2{
+    display: flex;
+    padding: 2em;
+    margin-right: 0;
+}
+.head2 p{
+    padding: 0 6px;
+    align-items: center;
+}
+.alive{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.alive h4{
+    color: white;
+    background-color: rgb(54, 88, 212);
+    padding: 9px;
+    font-size: large;
+}
+.team{
+    width: 100%;
+    height: 150px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(74, 185, 120);
+    padding: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+#teamp{
+    margin-bottom: -29px;
+}
+.team h1{
+    padding-top: 30px;
+    padding-left: 40px;
+}
+.team p{
+    padding-right: 9px;
+}
+.members{
+    height: 150px;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+}
+.members h2{
+    padding-top: 40px;
+    padding-left: 210px;
+}
+.members p{
+    padding-bottom: 40px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center; 
+}
+
+.xbox {
+    margin: 20px;
+    width: 20%;
+    padding: 1rem;
+}
+.box1{
+    background-color: rgb(255, 0, 0);
+}
+.box2{
+    background-color: rgb(0, 0, 255);
+}
+.box3{
+    background-color: rgb(0, 255, 0);
+}
+.box4{
+    background-color: rgb(255, 255, 0);
+}
